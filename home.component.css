@@ -1,0 +1,35 @@
+.container {
+  display:flex;
+  justify-content:flex-start;
+  flex-direction: row;
+}
+
+.div1 {
+  position: relative;
+  width:10%;
+  height:100vh;
+  flex-grow:0;
+  min-width: 5%;
+}
+
+.dragHorizental {
+   padding:15px;
+   position:relative;
+   width: 100% !important;
+   max-width: 100%;
+}
+
+.dragHorizental .dragger{
+   position: absolute;
+   bottom: 0;
+   margin-left: -15px;
+   cursor: s-resize;
+   height: 3px;
+   width: 78vw;
+   border-top: 1px solid darkgray;
+   overflow: hidden;
+   background-color: #eff0f1;
+   background-position: 210px -364px;
+   background-size: initial;
+   background-repeat: no-repeat;
+}
